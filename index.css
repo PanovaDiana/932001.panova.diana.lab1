@@ -1,0 +1,78 @@
+td{
+    width: 60px; 
+    height:40px; 
+    border: silver solid 1px ; 
+    text-align:center;
+}
+
+
+*{
+font-family: Arial;
+}
+
+body{
+color: white
+}
+.content{
+background-color: blue;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+width: 500px; 
+}
+
+.header{
+background-color: green;
+margin-bottom: 0;
+text-align: center;
+height:20px; 
+vertical-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 15px;
+}
+
+.footer{
+background-color: green;
+text-align: center;
+height:20px; 
+vertical-align: center;
+padding-top: 10px;
+padding-bottom:10px;
+font-size: 15px;
+}
+.content h1{
+    word-spacing: 15px;
+    font-size: 30px;
+}
+.content h2{
+    word-spacing: 15px;
+}
+.rect {
+border: 5px solid white;
+width: 100px; 
+height:100px; 
+float: left;
+margin: 0px 15px 15px 0px;
+border-radius: 20px 0px 20px 0px 
+}
+
+.right {
+float: right;
+}
+
+ul > li{
+    line-height: 1.5;
+}
+
+ul :nth-child(2){
+    color: rgb(0, 234, 255);
+    letter-spacing: 5px;
+}
+
+
+table{
+    border: white solid 1px ; 
+    margin: 0px 0px 10px 0px;
+
+}
